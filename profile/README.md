@@ -33,9 +33,11 @@ curl -X POST "https://convert.tigerra.com/do-convert/mp3-to-wav" \
 -F "file=@/path/file.mp3"
 ```
 
-Once the conversion is complete, download the converted file using the hash:
+Once the conversion is complete, download the converted file as a stream using the hash:
 
 ```bash
 https://convert.tigerra.com/download/hash-of-the-file
 ```
 
+### Read more about all supported convert types and audio effects
+[Tigerra.com Documentation](https://tigerra.com/convert-api-documentation)
