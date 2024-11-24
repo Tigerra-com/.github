@@ -22,22 +22,7 @@ To integrate the Tigerra File Conversion API, follow the steps below to set up y
    Sign up on [Tigerra.com](https://tigerra.com) and get your unique API token for secure access to the API.
 
 3. **Make Your First API Call**  
-   Start making API requests to convert files! Below are some examples using `curl`:
+   Start making API requests to convert files!
 
-### Example API Requests
-
-#### Convert Audio File
-```bash
-curl -X POST "https://convert.tigerra.com/do-convert/mp3-to-wav" \
--H "Authorization: Bearer your-token" \
--F "file=@/path/file.mp3"
-```
-
-Once the conversion is complete, download the converted file as a stream using the hash:
-
-```bash
-https://convert.tigerra.com/download/hash-of-the-file
-```
-
-### Read more about all supported convert types and audio effects
-[Tigerra.com Documentation](https://tigerra.com/convert-api-documentation)
+### Available SDKs
+- **Tigerra SDK for PHP**: Easy integration for PHP developers - https://github.com/Tigerra-com/convert-php-sdk
